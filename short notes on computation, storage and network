@@ -1,0 +1,351 @@
+KEYWORDS
+
+## What is Computation?
+
+**Computation** is the process of performing calculations, processing data, and executing instructions to solve problems or produce meaningful results. It is mainly performed by the **CPU (Central Processing Unit)**.
+
+ Keywords of Computation
+## 1. Input
+### Definition
+Input is the data or instructions provided to a computer for processing.
+
+### Input Devices
+- Keyboard
+- Mouse
+- Scanner
+- Microphone
+- Webcam
+
+## 2. Processing
+### Definition
+Processing is the stage where the CPU performs calculations and executes instructions on the input data.
+
+### Key Points
+- Performed by the CPU
+- Converts raw data into useful information
+
+## 3. Output
+### Definition
+Output is the information produced after processing.
+
+### Output Devices
+- Monitor
+- Printer
+- Speakers
+- Projector
+
+CPU (Central Processing Unit)
+### Definition
+The **CPU** is the brain of the computer. It executes instructions and performs computations.
+
+### Functions
+- Executes instructions
+- Performs calculations
+- Makes logical decisions
+- Controls computer operations
+
+# Components of the CPU
+
+## 1. Arithmetic Logic Unit (ALU)
+
+### Definition
+The **Arithmetic Logic Unit (ALU)** performs all arithmetic and logical operations.
+
+### Functions
+- Addition (+)
+- Subtraction (−)
+- Multiplication (×)
+- Division (÷)
+- Comparisons (>, <, =)
+- Logical operations (AND, OR, NOT, XOR)
+
+**Key Point:**  
+The ALU performs all mathematical calculations and logical decisions.
+
+## 2. Control Unit (CU)
+
+### Definition
+The **Control Unit (CU)** controls and coordinates all the operations of the computer.
+
+### Functions
+- Fetches instructions from memory
+- Decodes instructions
+- Controls the execution of instructions
+- Directs data between the CPU, memory, and input/output devices
+
+**Key Point:**  
+The Control Unit acts as the **manager** of the CPU.
+
+## 3. Registers
+
+### Definition
+**Registers** are very small, high-speed memory locations inside the CPU that temporarily store data, instructions, or addresses while processing.
+
+### Functions
+- Store data being processed
+- Hold instructions currently being executed
+- Store memory addresses
+- Improve processing speed
+
+### Characteristics
+- Located inside the CPU
+- Extremely fast
+- Very small storage capacity
+- Temporary (volatile)
+
+### Examples of Registers
+- **Accumulator (ACC):** Stores intermediate calculation results.
+- **Program Counter (PC):** Holds the address of the next instruction.
+- **Instruction Register (IR):** Stores the current instruction.
+- **Memory Address Register (MAR):** Holds the memory address to access.
+- **Memory Data Register (MDR):** Holds data being transferred to or from memory.
+
+# CPU Working Process
+
+```text
+Input
+   │
+   ▼
+Control Unit (CU)
+   │
+   ▼
+Registers ↔ ALU
+   │
+   ▼
+Output
+   │
+   ▼
+Storage
+
+# GPU, TPU, and DPU - Short Notes
+
+## 1. GPU (Graphics Processing Unit)
+
+### Definition
+A **GPU** is a specialized processor designed to perform many calculations simultaneously, mainly for graphics and parallel computing tasks.
+
+### Functions
+- Rendering images and videos
+- Processing graphics in games
+- Accelerating AI and machine learning tasks
+- Performing scientific calculations
+
+### Key Point
+**GPU = Parallel processing for graphics and heavy computations**
+
+### Example Uses
+- Gaming
+- Video editing
+- AI model training
+- 3D rendering
+
+---
+
+## 2. TPU (Tensor Processing Unit)
+
+### Definition
+A **TPU** is a specialized processor designed by Google for accelerating **machine learning and artificial intelligence workloads**.
+
+### Functions
+- Performs fast tensor operations
+- Speeds up neural network training and inference
+- Optimized for AI calculations
+
+### Key Point
+**TPU = Processor designed specifically for AI and machine learning**
+
+### Example Uses
+- Deep learning
+- Image recognition
+- Natural language processing
+
+---
+
+## 3. DPU (Data Processing Unit)
+
+### Definition
+A **DPU** is a specialized processor designed to handle data movement, networking, and storage tasks in modern data centers.
+
+### Functions
+- Manages data transfer
+- Handles network operations
+- Improves cloud and server efficiency
+- Offloads tasks from the CPU
+
+### Key Point
+**DPU = Processor for data movement and infrastructure tasks**
+
+### Example Uses
+- Cloud computing
+- Data centers
+- Network security
+- Storage management
+
+---
+
+# Difference Between GPU, TPU, and DPU
+
+| Processor | Main Purpose | Used For |
+|-----------|--------------|----------|
+| **GPU** | Parallel computation | Graphics, gaming, AI |
+| **TPU** | AI acceleration | Machine learning and neural networks |
+| **DPU** | Data processing | Networking, storage, cloud systems |
+
+---
+
+# Quick Revision
+
+- **GPU** → Handles graphics and parallel computing.
+- **TPU** → Accelerates AI and machine learning.
+- **DPU** → Manages data movement and infrastructure tasks.
+
+# Quick Revision
+
+- **ALU** = Performs calculations and logical operations.
+- **CU** = Controls and manages all CPU activities.
+- **Registers** = Fast temporary memory inside the CPU.
+- Together, **ALU, CU, and Registers** make the CPU work efficiently.
+````
+
+This section integrates well with your existing `README.md` on computation and CPU concepts.
+
+
+
+
+## Storage
+
+### Definition
+Storage is the process of saving data so it can be accessed and used later.
+
+# Primary and Secondary Storage
+
+## 1. Primary Storage
+
+### Definition
+**Primary storage** is the main memory of a computer that is directly accessed by the CPU to store data and instructions currently in use.
+
+### Features
+- Very fast access speed
+- Directly connected to the CPU
+- Limited storage capacity
+- Mostly temporary (volatile)
+
+### Types of Primary Storage
+- **RAM (Random Access Memory):** Temporary memory used to store programs and data currently running.
+- **ROM (Read Only Memory):** Permanent memory that stores important startup instructions.
+- **Cache Memory:** High-speed memory that stores frequently used data for faster access.
+
+### Examples
+- RAM
+- ROM
+- Cache Memory
+
+**Key Point:**  
+> Primary storage = Fast memory used for immediate processing.
+
+---
+
+## 2. Secondary Storage
+
+### Definition
+**Secondary storage** is a non-volatile storage system used to store data and programs permanently, even when the computer is turned off.
+
+### Features
+- Large storage capacity
+- Slower than primary storage
+- Permanent storage
+- Not directly accessed by the CPU
+
+### Types of Secondary Storage
+- **Hard Disk Drive (HDD):** Stores large amounts of data using magnetic storage.
+- **Solid-State Drive (SSD):** Faster storage using flash memory.
+- **USB Flash Drive:** Portable storage device.
+- **Memory Card:** Used in phones, cameras, and other devices.
+- **Optical Discs:** CDs and DVDs used for data storage.
+
+### Examples
+- HDD
+- SSD
+- USB Drive
+- Memory Card
+- Cloud Storage
+
+**Key Point:**  
+> Secondary storage = Permanent storage for saving data.
+
+---
+
+# Difference Between Primary and Secondary Storage
+
+| Primary Storage | Secondary Storage |
+|----------------|------------------|
+| Directly accessed by CPU | Accessed through input/output operations |
+| Faster speed | Slower speed |
+| Smaller capacity | Larger capacity |
+| Mostly temporary | Permanent storage |
+| Example: RAM, Cache | Example: HDD, SSD |
+
+---
+
+# Quick Revision
+
+- **Primary Storage:** Fast, temporary memory used during processing.
+- **Secondary Storage:** Permanent storage used to save files and applications.
+- **RAM = Working memory**
+- **HDD/SSD = Long-term storage**
+
+---
+
+# Network
+
+## Definition
+A computer network is a group of computers and devices connected together to share data, resources, and services.
+
+## Types of Networks
+
+### 1. LAN (Local Area Network)
+- Covers a small area such as a home, office, or school.
+- High speed and low cost.
+
+### 2. MAN (Metropolitan Area Network)
+- Covers a city or large campus.
+- Larger than a LAN but smaller than a WAN.
+
+### 3. WAN (Wide Area Network)
+- Covers large geographical areas such as countries or continents.
+- Example: The Internet.
+
+## Network Devices
+- Router
+- Switch
+- Hub
+- Modem
+- Access Point
+
+## Advantages of Networking
+- File sharing
+- Printer sharing
+- Internet sharing
+- Fast communication
+- Resource sharing
+
+## Disadvantages of Networking
+- Security risks
+- Virus spread
+- Network failure affects many users
+- Setup and maintenance costs
+
+---
+
+
+
+# Quick Revision
+
+## Network
+- Connects computers
+- Types: LAN, MAN, WAN
+- Used for communication and resource sharing
+- Internet is the largest WAN
+
+---
+
