@@ -1,0 +1,81 @@
+# Computation and Storage
+
+## What is Computation?
+
+**Definition:**  
+Computation is the process of performing calculations, processing data, and executing instructions to produce a result.
+
+### Performed By
+- CPU (Central Processing Unit)
+- GPU (Graphics Processing Unit)
+
+### Examples
+- Adding two numbers
+- Running a program
+- Editing photos or videos
+- Playing games
+- Training AI models
+
+**Key Point:**  
+> Computation = Processing data
+
+---
+
+## What is Storage?
+
+**Definition:**  
+Storage is the process of saving data so it can be accessed and used later.
+
+### Storage Devices
+- Hard Disk Drive (HDD)
+- Solid-State Drive (SSD)
+- USB Flash Drive
+- Memory Card
+- Cloud Storage
+
+### Examples
+- Saving documents
+- Storing photos and videos
+- Installing applications
+- Keeping backups
+
+**Key Point:**  
+> Storage = Saving data
+
+---
+
+## Difference Between Computation and Storage
+
+| Computation | Storage |
+|-------------|---------|
+| Processes data | Saves data |
+| Performed by CPU/GPU | Uses HDD, SSD, USB, Cloud |
+| Produces results | Stores data for future use |
+| Example: `10 + 20 = 30` | Example: Saving a PDF file |
+
+---
+
+## Real-Life Analogy
+
+Imagine a student:
+
+- **Computation:** Solving a math problem.
+- **Storage:** Writing the answer in a notebook.
+
+---
+
+## Quick Revision
+
+- ✅ Computation = Processing data
+- ✅ Storage = Saving data
+- ✅ CPU and GPU perform computation
+- ✅ HDD, SSD, USB drives, and Cloud provide storage
+
+---
+
+## Summary
+
+Computers need both **computation** and **storage** to function effectively.
+
+- **Computation** processes information.
+- **Storage** keeps information for future use.
